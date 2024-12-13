@@ -21,8 +21,10 @@ The project includes two main files:
 - This Jupyter notebook uses the pre-trained model (`animal_classifier_model.h5` and `animal_classifier_model.keras`) to predict animal types.
 - I have included both trained models (It took several hours to train).
 - **How to Use**:
-  1. Place the desired images for prediction in the `new-img` directory.
-  2. Run the `animal_prediction.ipynb` notebook.
-  3. The notebook will output:
+  1. Download this `animal_prediction.ipynb` notebook and either `animal_classifier_model.h5` or `animal_classifier_model.keras`
+  2. Create directory named `new-img`.
+  3. Place the desired images for prediction in the `new-img` directory.
+  4. Run the `animal_prediction.ipynb` notebook.
+  5. The notebook will output:
      - Predicted animal type for each image.
      - A visualization of each image with the predicted label.
